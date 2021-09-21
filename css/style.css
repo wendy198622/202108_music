@@ -294,6 +294,30 @@ section .container .themeBox .infoBox p {
 section .container .themeBox .imgBox {
   width: calc(720/800*100%);
   margin: 0 auto;
+  position: relative;
+}
+
+section .container .themeBox .imgBox div {
+  position: relative;
+}
+
+section .container .themeBox .imgBox span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 12px;
+}
+
+section .container .themeBox .imgBox span.black {
+  color: #000;
+}
+
+section .container .themeBox .imgBox .title {
+  width: 22%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
 }
 
 section .container .themeBox .imgGroup {
@@ -382,6 +406,22 @@ section .container .themeBox .sceneBox .info p {
 
 section .container .themeBox .sceneBox .photo {
   float: right;
+}
+
+section .container .themeBox .sceneBox .photo .group div {
+  position: relative;
+}
+
+section .container .themeBox .sceneBox .photo .group div span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 12px;
+}
+
+section .container .themeBox .sceneBox .photo .group div span.black {
+  color: #000;
 }
 
 section .container .themeBox .sceneBox.sceneBox1 .info {

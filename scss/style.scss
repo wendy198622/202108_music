@@ -200,6 +200,24 @@ section{
             .imgBox{
                 width: calc(720/800*100%);
                 margin: 0 auto;
+                position: relative;
+                div{ position: relative;}
+                span{
+                    position: absolute;
+                    right: 10px;
+                    bottom: 10px;
+                    color: #fff;
+                    font-size: 12px;
+                    &.black{
+                        color: #000;
+                    }
+                }
+                .title{
+                    width: 22%;
+                    position: absolute;
+                    left: 20px;
+                    top: 20px;
+                }
             }
             .imgGroup{
                 text-align: center;
@@ -262,6 +280,19 @@ section{
                 }
                 .photo{
                     float: right;
+                    .group div{
+                        position: relative;
+                        span{
+                            position: absolute;
+                            right: 10px;
+                            bottom: 10px;
+                            color: #fff;
+                            font-size: 12px;
+                            &.black{
+                                color: #000;
+                            }
+                        }
+                    }
                 }
                 &.sceneBox1{
                     .info{
