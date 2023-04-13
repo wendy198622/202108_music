@@ -206,6 +206,7 @@ section .container .kvBox .infoBox {
   padding: 80px 0 120px;
   background: url(../img/theme1_img1.png) 95% bottom no-repeat;
   background-size: contain;
+  margin-top: 20px;
 }
 
 @media (max-width: 800px) {
@@ -381,9 +382,8 @@ section .container .themeBox .sceneBox h4 {
 @media (max-width: 600px) {
   section .container .themeBox .sceneBox h4 {
     font-size: 18px;
-    padding-right: 12px;
-    position: static;
-    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -532,6 +532,15 @@ section .container .themeBox .sceneBox.even h4 {
   padding-left: 20%;
 }
 
+@media (max-width: 600px) {
+  section .container .themeBox .sceneBox.even h4 {
+    text-align: left;
+    right: unset;
+    left: 0;
+    padding-left: 20px;
+  }
+}
+
 section .container .themeBox .sceneBox.even .info {
   float: right;
 }
@@ -577,13 +586,20 @@ section .container .brandBox .infoBox {
 section .container .brandBox .infoBox ul li {
   text-align: left;
   overflow: hidden;
+  padding: 15px 0;
+}
+
+@media (max-width: 440px) {
+  section .container .brandBox .infoBox ul li {
+    padding: 4px 0;
+  }
 }
 
 section .container .brandBox .infoBox ul li h5 {
   width: 120px;
   float: left;
   font-size: 22px;
-  line-height: 60px;
+  line-height: 30px;
   color: #fff;
 }
 
@@ -596,7 +612,7 @@ section .container .brandBox .infoBox ul li h5 {
 @media (max-width: 440px) {
   section .container .brandBox .infoBox ul li h5 {
     width: 100%;
-    line-height: 30px;
+    line-height: 20px;
     text-align: center;
     margin-top: 20px;
   }
@@ -606,8 +622,9 @@ section .container .brandBox .infoBox ul li span {
   width: 360px;
   float: right;
   font-size: 22px;
-  line-height: 60px;
+  line-height: 30px;
   color: #fff;
+  text-align: justify;
 }
 
 @media (max-width: 600px) {
@@ -620,7 +637,7 @@ section .container .brandBox .infoBox ul li span {
 @media (max-width: 440px) {
   section .container .brandBox .infoBox ul li span {
     width: 100%;
-    line-height: 30px;
+    line-height: 20px;
     text-align: center;
   }
 }
@@ -630,7 +647,7 @@ section .container .formBox {
 }
 
 section .container .formBox .infoBox {
-  width: 296px;
+  width: 350px;
   margin: 0 auto;
 }
 
@@ -646,7 +663,7 @@ section .container .formBox .infoBox .iconBox {
 }
 
 section .container .formBox .infoBox .iconBox a {
-  width: 100px;
+  width: 90px;
   display: inline-block;
   margin-right: 20px;
 }
